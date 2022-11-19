@@ -3,13 +3,11 @@ package tum.hackatum.userservice.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import tum.hackatum.userservice.dto.UserCreateDto;
-import tum.hackatum.userservice.dto.UserCreateResponse;
-import tum.hackatum.userservice.dto.UserLoginDto;
-import tum.hackatum.userservice.dto.UserLoginResponse;
+import tum.hackatum.userservice.dto.*;
 import tum.hackatum.userservice.model.User;
 import tum.hackatum.userservice.repository.UserRepository;
 
+import java.util.List;
 import java.util.Objects;
 
 @Service
@@ -58,5 +56,14 @@ public class UserService {
                     .httpStatus(HttpStatus.BAD_REQUEST)
                     .build();
         }
+    }
+
+    public ValidationResponse validateUser(String username, String password) {
+        List<User> users = userRepository.findAll();
+        return ValidationResponse.builder()
+                .isValid(users.stream()
+                        .anyMatch(user -> user.getUsername().equals(username) && user.getPassword().equals(password)))
+                .build();
+
     }
 }
