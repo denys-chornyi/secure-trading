@@ -1,13 +1,20 @@
 package tum.hackatum.feignapiclient;
 
+import feign.RequestLine;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import tum.hackatum.dto.StocksRequest;
+import tum.hackatum.dto.PriceDto;
+import tum.hackatum.dto.StocksDto;
 
-@FeignClient(name = "feign-client", url = "https://api.twelvedata.com")
+import java.net.URI;
+
+@FeignClient(name = "feign-client")
 public interface FeignApiClient {
+    @RequestLine("GET")
+    StocksDto getStocks(URI baseUri);
 
-    @GetMapping("/stocks?apikey=35a13d11d5c547e88c907ed534d516a68")
-    StocksRequest getStocks();
+    @RequestLine("GET")
+    PriceDto getPrice(URI baseUri);
+
+
 
 }

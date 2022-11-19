@@ -4,25 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b4bb1f5-2f59-46f1-8e9c-963a45170c8a" name="Changes" comment="User service updated. Created endpoints for login and user creation">
-      <change afterPath="$PROJECT_DIR$/feign-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/controller/FeignClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/dto/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/dto/StocksRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/dto/StocksResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/feignapiclient/FeignApiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/service/FeignClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1b4bb1f5-2f59-46f1-8e9c-963a45170c8a" name="Changes" comment="Feign Client added">
+      <change afterPath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/dto/PriceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/dto/PriceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/dto/StocksDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-service/src/main/java/tum/hackatum/ApiServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/FeignClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-service/src/main/java/tum/hackatum/api/TradingAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-service/src/main/java/tum/hackatum/model/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-service/src/main/java/tum/hackatum/model/Response.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-service/src/main/java/tum/hackatum/service/TestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/controller/FeignClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/controller/FeignClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/dto/Stock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/dto/StocksRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/dto/StocksResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/dto/StocksResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/feignapiclient/FeignApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/feignapiclient/FeignApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/service/FeignClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-client/src/main/java/tum/hackatum/service/FeignClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/controller/UserServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/controller/UserServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/dto/UserCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/dto/UserCreateDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/dto/UserCreateResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/dto/UserCreateResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/dto/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/dto/UserLoginDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/dto/UserLoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/dto/UserLoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +61,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="tum.hackatum.dto" />
       <recent name="tum.hackatum.userservice.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FeignClientApplication">
+  <component name="RunManager" selected="Application.UserServiceApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tum.hackatum.apigateway.ApiGatewayApplication" />
       <module name="api-gateway" />
@@ -121,9 +120,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FeignClientApplication" />
-        <item itemvalue="Application.DiscoveryServiceApplication" />
         <item itemvalue="Application.UserServiceApplication" />
+        <item itemvalue="Application.DiscoveryServiceApplication" />
+        <item itemvalue="Application.FeignClientApplication" />
         <item itemvalue="Application.ApiGatewayApplication" />
       </list>
     </recent_temporary>
@@ -158,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668825576930</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Feign Client added">
+      <created>1668835751360</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668835751360</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +182,7 @@
     <MESSAGE value="Basic services created" />
     <MESSAGE value="Api Service created" />
     <MESSAGE value="User service updated. Created endpoints for login and user creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="User service updated. Created endpoints for login and user creation" />
+    <MESSAGE value="Feign Client added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feign Client added" />
   </component>
 </project>

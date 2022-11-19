@@ -1,15 +1,16 @@
-package tum.hackatum.userservice.dto;
+package tum.hackatum.dto;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserLoginRequest {
+@Builder
+public class PriceResponse {
 
-    private String username;
-    private String password;
+    private float price;
 
 }
