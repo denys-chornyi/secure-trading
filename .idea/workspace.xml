@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b4bb1f5-2f59-46f1-8e9c-963a45170c8a" name="Changes" comment="Basic services created">
-      <change afterPath="$PROJECT_DIR$/api-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-service/src/main/java/tum/hackatum/ApiServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/api/TradingAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/model/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/model/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/service/TestService.java" afterDir="false" />
+    <list default="true" id="1b4bb1f5-2f59-46f1-8e9c-963a45170c8a" name="Changes" comment="Api Service created">
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/dto/UserCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/dto/UserCreateResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/dto/UserLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/dto/UserLoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/UserServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/controller/UserServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/tum/hackatum/userservice/controller/UserServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,8 +100,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.UserServiceApplication" />
-        <item itemvalue="Application.ApiGatewayApplication" />
         <item itemvalue="Application.DiscoveryServiceApplication" />
+        <item itemvalue="Application.ApiGatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668818747311</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Api Service created">
+      <created>1668822277026</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668822277026</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic services created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic services created" />
+    <MESSAGE value="Api Service created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Api Service created" />
   </component>
 </project>
