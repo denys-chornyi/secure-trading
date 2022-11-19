@@ -12,8 +12,15 @@
         <module>discovery-service</module>
         <module>user-service</module>
         <module>api-gateway</module>
-        <module>api-service</module>
+        <module>feign-client</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.3.7</version>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
